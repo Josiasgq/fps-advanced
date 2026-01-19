@@ -23,7 +23,6 @@ A simple first-person shooter engine written in ~1200 lines of Zig, featuring br
 ### Prerequisites
 
 - [Zig](https://ziglang.org/) (latest)
-- For web builds: [Emscripten](https://emscripten.org/)
 
 ### Native Build
 
