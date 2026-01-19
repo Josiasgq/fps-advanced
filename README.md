@@ -1,6 +1,6 @@
-# FPS Engine
+# FPS Advanced
 
-A simple first-person shooter engine written in ~1200 lines of Zig, featuring brush-based geometry and BVH acceleration for collision detection.
+A simple first-person shooter engine written in ~1200 lines of Zig, featuring brush-based geometry and BVH accelerated swept point-based collision detection with source-like movement including surfing.
 
 ## Features
 
